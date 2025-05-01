@@ -3,7 +3,8 @@ use std::collections::HashMap;
 
 pub struct Solution;
 impl Solution {
-    pub fn length_of_longest_substring(s: String) -> i32 {
+    pub fn length_of_longest_substring(s: String) -> i32
+    {
         let vec_s = s.chars().collect::<Vec<char>>();
         let mut map_last_seen: HashMap<char, usize> = HashMap::new();
 

@@ -1,6 +1,7 @@
 pub struct Solution;
 impl Solution {
-    pub fn reverse(x: i32) -> i32 {
+    pub fn reverse(x: i32) -> i32
+    {
         let mut x = x;
         if x == i32::MIN || x == 0 { return 0; }
         let base: u64 = 10;
